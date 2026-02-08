@@ -75,5 +75,9 @@ tmp/
 !.vscode/*.code-snippets
 !.vscode/cspell*
 
+## ShellSpec
+# ShellSpec local configuration (user-specific overrides)
+.shellspec-local
+
 ## Node
 node_modules/
