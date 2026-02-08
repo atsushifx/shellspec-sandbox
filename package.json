@@ -1,0 +1,12 @@
+{
+  "name": "shellspec-sandbox",
+  "private": true,
+  "version": "0.0.1",
+  "description": "shellspec sandbox",
+  "author": "Furukawa, Atsushi <atsushifx@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "bash ./scripts/setup-dev-env.sh",
+    "test": "bash .tools/shellspec/shellspec"
+  }
+}
