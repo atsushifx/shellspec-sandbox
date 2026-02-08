@@ -7,6 +7,6 @@
   "license": "MIT",
   "scripts": {
     "prepare": "bash ./scripts/setup-dev-env.sh",
-    "test": "bash .tools/shellspec/shellspec"
+    "test:sh:unit": "bash scripts/run-specs.sh --default-path "
   }
 }
